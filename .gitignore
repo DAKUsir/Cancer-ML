@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs (keep artifacts/ for HF Spaces, exclude large CSVs/PNGs)
+processed_dataset.csv
+model_cv_summary.csv
+model_test_summary.csv
+batch_predictions.csv
+*.png
+cm_*.png
+roc_*.png
+pr_*.png
+fi_*.png
+model_comparison_*.png
